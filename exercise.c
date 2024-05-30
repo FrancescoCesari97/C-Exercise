@@ -8,8 +8,21 @@
 
 #include <ctype.h>
 
+void birthday(char name[], int years)
+{
+    printf("\nHappy birthday dear %s!", name);
+    printf("\nYou are %d years old", years);
+}
+
 int main()
 {
+    //!/ function
+    char name[] = "freedus";
+    int years = 26;
+
+    birthday(name, years);
+
+    //!/
 
     // printf("I like pizza!\n");
     // printf("I like pizza!\n");
@@ -205,46 +218,73 @@ int main()
 
     //!/ creating a single calculator program
 
-    char operator;
-    double num1;
-    double num2;
-    double result;
+    // char operator;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("\n Enter an operator (+ - * /): ");
-    scanf("%c", &operator);
+    // printf("\n Enter an operator (+ - * /): ");
+    // scanf("%c", &operator);
 
-    printf("Enter number 1: ");
-    scanf("%lf", &num1);
+    // printf("Enter number 1: ");
+    // scanf("%lf", &num1);
 
-    printf("Enter number 2: ");
-    scanf("%lf", &num2);
+    // printf("Enter number 2: ");
+    // scanf("%lf", &num2);
 
-    switch (operator)
-    {
-    case '+':
-        result = num1 + num2;
-        printf("\nresult: %.2lf", result);
-        break;
+    // switch (operator)
+    // {
+    // case '+':
+    //     result = num1 + num2;
+    //     printf("\nresult: %.2lf", result);
+    //     break;
 
-    case '-':
-        result = num1 - num2;
-        printf("\nresult: %.2lf", result);
-        break;
+    // case '-':
+    //     result = num1 - num2;
+    //     printf("\nresult: %.2lf", result);
+    //     break;
 
-    case '*':
-        result = num1 * num2;
-        printf("\nresult: %.2lf", result);
-        break;
+    // case '*':
+    //     result = num1 * num2;
+    //     printf("\nresult: %.2lf", result);
+    //     break;
 
-    case '/':
-        result = num1 / num2;
-        printf("\nresult: %.2lf", result);
-        break;
+    // case '/':
+    //     result = num1 / num2;
+    //     printf("\nresult: %.2lf", result);
+    //     break;
 
-    default:
-        printf("%c is not valid", operator);
-        break;
-    }
+    // default:
+    //     printf("%c is not valid", operator);
+    //     break;
+    // }
+    //!/
+
+    //!/ logical operator
+
+    // float temp = 1000;
+    // bool sunny = false;
+
+    // if (temp >= 0 && temp <= 30 && sunny)
+    // {
+    //     printf("\nThe weather is good!");
+    // }
+    // else
+    // {
+    //     printf("\n the weather is bad");
+    // }
+
+    //     float temp = 1000;
+    // bool sunny = false;
+
+    // if (temp >= 0 || temp <= 30 || sunny)
+    // {
+    //     printf("\nThe weather is good!");
+    // }
+    // else
+    // {
+    //     printf("\n the weather is bad");
+    // }
     //!/
 
     return 0;
