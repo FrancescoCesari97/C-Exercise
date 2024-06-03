@@ -7,20 +7,41 @@
 #include <math.h>
 
 #include <ctype.h>
+//!/ function
+// void birthday(char name[], int years)
+// {
+//     printf("\nHappy birthday dear %s!", name);
+//     printf("\nYou are %d years old", years);
+// }
+//!/
 
-void birthday(char name[], int years)
-{
-    printf("\nHappy birthday dear %s!", name);
-    printf("\nYou are %d years old", years);
-}
+//!/ ternary operator
+// int findMax(int x, int y)
+// {
+
+//     return (x > y) ? x : y;
+// }
+//!/
+
+//!/ function prototype
+void hello(char[], int);
+//!/
 
 int main()
 {
     //!/ function
-    char name[] = "freedus";
-    int years = 26;
+    // char name[] = "freedus";
+    // int years = 26;
 
-    birthday(name, years);
+    // birthday(name, years);
+
+    //!/
+
+    //!/ ternary operator
+
+    // int max = findMax(3, 4);
+
+    // printf("%d", max);
 
     //!/
 
@@ -286,6 +307,18 @@ int main()
     //     printf("\n the weather is bad");
     // }
     //!/
+    char name[] = "freedus";
+    int age = 21;
+
+    hello(name, age);
 
     return 0;
 }
+
+//!/ function prototype
+void hello(char name[], int age)
+{
+    printf("\nHello %s", name);
+    printf("\n You are %d years old", age);
+}
+//!/

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.php": "blade",
+        "stdio.h": "c"
+    }
+}
