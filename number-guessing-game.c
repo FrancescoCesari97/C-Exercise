@@ -8,7 +8,7 @@ int main()
     const int MAX = 100;
 
     int guess;
-    int guesses;
+    int guesses = 0;
     int answer;
 
     //*uses the current time as a seed
