@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.php": "blade",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "tic-tac-toe-game-c": "c"
     }
 }
